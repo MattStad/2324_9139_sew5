@@ -10,6 +10,7 @@ class BritishWeight:
     >>> print(b3)
     2 st 1 lb
     """
+
     def __init__(self,stones,pounds):
         self.pound=pounds+stones*14
 
