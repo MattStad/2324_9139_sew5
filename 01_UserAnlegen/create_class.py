@@ -17,10 +17,12 @@ def getClasses(file):
             infos.append([y,y1,y2])
     return infos
 
+def createpasswd(klasse,room,teacher):
+    zeichenkette = "!%&(),._-=^#"
+    return klasse + "" + random.choice(zeichenkette) + "" + str(room) + "" + random.choice(zeichenkette) + "" + teacher + "" + random.choice(zeichenkette)
 
 def createUsers(infos):
-    zeichenkette = "!%&(),._-=^#"
-    with open('createClasses', 'w') as f:
+    with open('.\\01_UserAnlegen\\createClasses', 'w') as f:
         f.write("groupadd Lehrer\n")
         f.write("groupadd Seminar\n")
         f.write("groupadd Klasse\n")
@@ -31,6 +33,6 @@ def createUsers(infos):
         f.write("useradd -d \"/home/seminar\"-c \"seminar\" -m -g Seminar -G cdrom,plugdev,sambashare -s /bin/bash seminar\n")
         for i in infos:
             f.write("useradd /home/klassen/k"+i[0].lower()+" -c \""+i[0]+"\" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k"+i[0].lower()+"\n")
-            print(random.choice(zeichenkette))
+            f.write("echo \"k"+i[0].lower()+":"+createpasswd(i[0],i[1],i[2])+" | chpasswd\"\n")
 
 createUsers(getClasses(".\\01_UserAnlegen\\Klassenraeume_2023.xlsx"))
