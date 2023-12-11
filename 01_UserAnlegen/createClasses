@@ -1,0 +1,86 @@
+#! /bin/sh
+groupadd Lehrer
+groupadd Seminar
+groupadd Klasse
+useradd -d "/home/lehrer" -c "lehrer" -m -g Lehrer -G cdrom,plugdev,sambashare -s /bin/bash lehrer
+useradd -d "/home/seminar" -c "seminar" -m -g Seminar -G cdrom,plugdev,sambashare -s /bin/bash seminar
+useradd -d "/home/klassen/k1am" -c "1AM" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k1am
+echo "1AM(165&FRH&:k1am" | chpasswd
+useradd -d "/home/klassen/k1bm" -c "1BM" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k1bm
+echo "1BM&365_DRE.:k1bm" | chpasswd
+useradd -d "/home/klassen/k1cm" -c "1CM" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k1cm
+echo "1CM%379-GRM.:k1cm" | chpasswd
+useradd -d "/home/klassen/k2am" -c "2AM" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k2am
+echo "2AM(359,TMP_:k2am" | chpasswd
+useradd -d "/home/klassen/k2bm" -c "2BM" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k2bm
+echo "2BM!376.WIT=:k2bm" | chpasswd
+useradd -d "/home/klassen/k2cm" -c "2CM" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k2cm
+echo "2CM!275.PCH%:k2cm" | chpasswd
+useradd -d "/home/klassen/k3am" -c "3AM" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k3am
+echo "3AM-375)ZOI-:k3am" | chpasswd
+useradd -d "/home/klassen/k3bm" -c "3BM" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k3bm
+echo "3BM,361,KAM^:k3bm" | chpasswd
+useradd -d "/home/klassen/k3cm" -c "3CM" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k3cm
+echo "3CM)377,PRS):k3cm" | chpasswd
+useradd -d "/home/klassen/k4am" -c "4AM" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k4am
+echo "4AM!154.MAR-:k4am" | chpasswd
+useradd -d "/home/klassen/k4bm" -c "4BM" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k4bm
+echo "4BM_263^GRI^:k4bm" | chpasswd
+useradd -d "/home/klassen/k4cm" -c "4CM" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k4cm
+echo "4CM_279&BUG^:k4cm" | chpasswd
+useradd -d "/home/klassen/k5am" -c "5AM" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k5am
+echo "5AM=156!PLE,:k5am" | chpasswd
+useradd -d "/home/klassen/k5bm" -c "5BM" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k5bm
+echo "5BM(160^STW_:k5bm" | chpasswd
+useradd -d "/home/klassen/k5cm" -c "5CM" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k5cm
+echo "5CM&354%JEN):k5cm" | chpasswd
+useradd -d "/home/klassen/k1af" -c "1AF" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k1af
+echo "1AF^372^GFO!:k1af" | chpasswd
+useradd -d "/home/klassen/k1bf" -c "1BF" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k1bf
+echo "1BF)272.VOL#:k1bf" | chpasswd
+useradd -d "/home/klassen/k1cf" -c "1CF" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k1cf
+echo "1CF.209=KEG,:k1cf" | chpasswd
+useradd -d "/home/klassen/k2af" -c "2AF" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k2af
+echo "2AF_357(BOG#:k2af" | chpasswd
+useradd -d "/home/klassen/k2bf" -c "2BF" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k2bf
+echo "2BF.219^STE#:k2bf" | chpasswd
+useradd -d "/home/klassen/k3afi" -c "3AFI" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k3afi
+echo "3AFI!356_HIT=:k3afi" | chpasswd
+useradd -d "/home/klassen/k3bfn" -c "3BFN" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k3bfn
+echo "3BFN,277)BAA.:k3bfn" | chpasswd
+useradd -d "/home/klassen/k4afi" -c "4AFI" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k4afi
+echo "4AFI_275/279)OPP-:k4afi" | chpasswd
+useradd -d "/home/klassen/k4bfn" -c "4BFN" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k4bfn
+echo "4BFN)217!CER.:k4bfn" | chpasswd
+useradd -d "/home/klassen/k1ai" -c "1AI" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k1ai
+echo "1AI)254-KLE%:k1ai" | chpasswd
+useradd -d "/home/klassen/k1bi" -c "1BI" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k1bi
+echo "1BI#371_HOL-:k1bi" | chpasswd
+useradd -d "/home/klassen/k1ci" -c "1CI" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k1ci
+echo "1CI!265=JAV(:k1ci" | chpasswd
+useradd -d "/home/klassen/k2ai" -c "2AI" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k2ai
+echo "2AI,378=BAY(:k2ai" | chpasswd
+useradd -d "/home/klassen/k2bi" -c "2BI" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k2bi
+echo "2BI^363!KUS):k2bi" | chpasswd
+useradd -d "/home/klassen/k2ci" -c "2CI" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k2ci
+echo "2CI&271%NIC#:k2ci" | chpasswd
+useradd -d "/home/klassen/k3ai" -c "3AI" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k3ai
+echo "3AI!260!BUC^:k3ai" | chpasswd
+useradd -d "/home/klassen/k3bi" -c "3BI" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k3bi
+echo "3BI!360-BSB&:k3bi" | chpasswd
+useradd -d "/home/klassen/k3ci" -c "3CI" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k3ci
+echo "3CI(225%BRE^:k3ci" | chpasswd
+useradd -d "/home/klassen/k4ai" -c "4AI" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k4ai
+echo "4AI,261)DAZ=:k4ai" | chpasswd
+useradd -d "/home/klassen/k4bi" -c "4BI" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k4bi
+echo "4BI(257.OLI=:k4bi" | chpasswd
+useradd -d "/home/klassen/k4cn" -c "4CN" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k4cn
+echo "4CN,276-SDO&:k4cn" | chpasswd
+useradd -d "/home/klassen/k5ax" -c "5AX" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k5ax
+echo "5AX=278.FIN&:k5ax" | chpasswd
+useradd -d "/home/klassen/k5bi" -c "5BI" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k5bi
+echo "5BI!256&NUS-:k5bi" | chpasswd
+useradd -d "/home/klassen/k5cn" -c "5CN" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k5cn
+echo "5CN#259!SLT,:k5cn" | chpasswd
+useradd -d "/home/klassen/k1ao" -c "1AO" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash k1ao
+echo "1AO!217%KIT,:k1ao" | chpasswd

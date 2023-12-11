@@ -1,0 +1,78 @@
+useradd -d "/home/maximilian" -c "Maximilian" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash maximilian
+echo "Nf;?4)D--'"":maximilian" | chpasswd
+useradd -d "/home/ramon" -c "Ramón" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash ramon
+echo "W;CsGRG|71Gn:ramon" | chpasswd
+useradd -d "/home/uelkue_oemer" -c "Ülkü Ömer" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash uelkue_oemer
+echo "OXh<~*FN2ZIw:uelkue_oemer" | chpasswd
+useradd -d "/home/isis" -c "Isis" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash isis
+echo "_sf_eXoDwdmC:isis" | chpasswd
+useradd -d "/home/maximilian1" -c "Maximilian" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash maximilian1
+echo ""XJnCXX&p|5v:maximilian1" | chpasswd
+useradd -d "/home/jannette" -c "Jannette" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash jannette
+echo "2{8a`A^:'X\,:jannette" | chpasswd
+useradd -d "/home/marg" -c "Marg" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash marg
+echo "#L=h7/5cgO4*:marg" | chpasswd
+useradd -d "/home/carisa" -c "Carisa" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash carisa
+echo "cZm=DAXR:q.a:carisa" | chpasswd
+useradd -d "/home/david" -c "David" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash david
+echo "uVFD7~!h]mHF:david" | chpasswd
+useradd -d "/home/paulette" -c "Paulette" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash paulette
+echo "lG$pA[>bdDsj:paulette" | chpasswd
+useradd -d "/home/kirby" -c "Kirby" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash kirby
+echo "y,=xW8_`3"FX:kirby" | chpasswd
+useradd -d "/home/reed" -c "Reed" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash reed
+echo "BoY8B1fCx%fP:reed" | chpasswd
+useradd -d "/home/blair" -c "Blair" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash blair
+echo "_I!;O%ar5ARh:blair" | chpasswd
+useradd -d "/home/lon" -c "Lon" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash lon
+echo "Zv)OjR+AKKto:lon" | chpasswd
+useradd -d "/home/vada" -c "Vada" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash vada
+echo "wTe/S{hpL}~k:vada" | chpasswd
+useradd -d "/home/jeanett" -c "Jeanett" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash jeanett
+echo "0EYnbSIh;P!H:jeanett" | chpasswd
+useradd -d "/home/alex" -c "Alex" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash alex
+echo "UxWjE6iueN_t:alex" | chpasswd
+useradd -d "/home/robyn" -c "Robyn" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash robyn
+echo "ri.WU3g'tAkD:robyn" | chpasswd
+useradd -d "/home/camille" -c "Camille" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash camille
+echo "}VV,?#KP$[Mw:camille" | chpasswd
+useradd -d "/home/franz_michael_leopold" -c "Franz Michael Leopold" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash franz_michael_leopold
+echo "Mo_ZY0Q8:gi;:franz_michael_leopold" | chpasswd
+useradd -d "/home/veola" -c "Veola" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash veola
+echo "eVOdWg2R\(N,:veola" | chpasswd
+useradd -d "/home/chantelle" -c "Chantelle" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash chantelle
+echo "`&E4yep=rzRk:chantelle" | chpasswd
+useradd -d "/home/britney" -c "Britney" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash britney
+echo "3qJ~t3iNCa^U:britney" | chpasswd
+useradd -d "/home/clayton" -c "Clayton" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash clayton
+echo "TF'pepLuU]=9:clayton" | chpasswd
+useradd -d "/home/beverlee" -c "Beverlee" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash beverlee
+echo "{S@Yr&p~bkyR:beverlee" | chpasswd
+useradd -d "/home/alma" -c "Alma" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash alma
+echo "%lkQ]&X%V"Ti:alma" | chpasswd
+useradd -d "/home/thad" -c "Thad" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash thad
+echo "(3"%UJ<gTS:w:thad" | chpasswd
+useradd -d "/home/arvilla" -c "Arvilla" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash arvilla
+echo "r^:O>C*ADy`):arvilla" | chpasswd
+useradd -d "/home/mirza" -c "Mirza" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash mirza
+echo "u}]W2I_6Dk|S:mirza" | chpasswd
+useradd -d "/home/francie" -c "Francie" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash francie
+echo "TS+Y2ts2Nb`):francie" | chpasswd
+useradd -d "/home/irenee" -c "IRÉNÉE" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash irenee
+echo ".jE+{{h3z?wh:irenee" | chpasswd
+useradd -d "/home/irenee1" -c "IRÉNÉE" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash irenee1
+echo "4YOL%bq&,~Ls:irenee1" | chpasswd
+useradd -d "/home/chel'ah" -c "CHEL'AH" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash chel'ah
+echo ">HC3pP1Xlq=p:chel'ah" | chpasswd
+useradd -d "/home/mirza1" -c "Mirza" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash mirza1
+echo "kQ%EhowJZS^\:mirza1" | chpasswd
+useradd -d "/home/francie1" -c "Francie" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash francie1
+echo "\#C>[Ap\eUx(:francie1" | chpasswd
+useradd -d "/home/goldie" -c "Goldie" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash goldie
+echo "CK>?Sr0)Q$&}:goldie" | chpasswd
+useradd -d "/home/a-nother" -c "A-nother" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash a-nother
+echo "Vy2;Z%86}1^e:a-nother" | chpasswd
+useradd -d "/home/andromede" -c "Ανδρομέδη" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash andromede
+echo "0uR4+ibw-aU-:andromede" | chpasswd
+useradd -d "/home/helaah" -c "חֶלְאָה" -m -g Klasse -G cdrom,plugdev,sambashare -s /bin/bash helaah
+echo ")4Gj|V'taG'b:helaah" | chpasswd

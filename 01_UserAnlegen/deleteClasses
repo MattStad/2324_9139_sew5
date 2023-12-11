@@ -1,0 +1,46 @@
+#! /bin/sh
+groupdel Lehrer
+groupdel Seminar
+groupdel Klasse
+userdel -r lehrer
+userdel -r seminar
+ueserdel -r k1am
+ueserdel -r k1bm
+ueserdel -r k1cm
+ueserdel -r k2am
+ueserdel -r k2bm
+ueserdel -r k2cm
+ueserdel -r k3am
+ueserdel -r k3bm
+ueserdel -r k3cm
+ueserdel -r k4am
+ueserdel -r k4bm
+ueserdel -r k4cm
+ueserdel -r k5am
+ueserdel -r k5bm
+ueserdel -r k5cm
+ueserdel -r k1af
+ueserdel -r k1bf
+ueserdel -r k1cf
+ueserdel -r k2af
+ueserdel -r k2bf
+ueserdel -r k3afi
+ueserdel -r k3bfn
+ueserdel -r k4afi
+ueserdel -r k4bfn
+ueserdel -r k1ai
+ueserdel -r k1bi
+ueserdel -r k1ci
+ueserdel -r k2ai
+ueserdel -r k2bi
+ueserdel -r k2ci
+ueserdel -r k3ai
+ueserdel -r k3bi
+ueserdel -r k3ci
+ueserdel -r k4ai
+ueserdel -r k4bi
+ueserdel -r k4cn
+ueserdel -r k5ax
+ueserdel -r k5bi
+ueserdel -r k5cn
+ueserdel -r k1ao
